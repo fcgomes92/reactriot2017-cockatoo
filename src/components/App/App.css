@@ -1,0 +1,42 @@
+.login-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .login-buttons .login-facebook,
+  .login-buttons .login-google {
+    line-height: 3em;
+    border: none;
+    padding: 0 2em;
+    border-radius: 0.2em;
+    color: #FFF;
+    transition: all 250ms ease; }
+  .login-buttons .login-google {
+    background: #4285F4; }
+    .login-buttons .login-google:hover {
+      background: #206ff2; }
+  .login-buttons .login-facebook {
+    background: #3b5998; }
+    .login-buttons .login-facebook:hover {
+      background: #314a7e; }
+
+.logout {
+  line-height: 3em;
+  border: none;
+  padding: 0 2em;
+  border-radius: 0.2em;
+  color: #FFF;
+  transition: all 250ms ease;
+  background: #2196F3; }
+
+.app {
+  display: flex;
+  align-items: stretch; }
+  .app .app-menu {
+    margin: 0 !important;
+    border-radius: 0;
+    box-shadow: 0; }
+  .app .app-content {
+    background: #f8f8f8;
+    width: 100%;
+    overflow: auto;
+    padding: 1em; }
